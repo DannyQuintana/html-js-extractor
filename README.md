@@ -57,34 +57,6 @@ Ensure the directory is in your PATH:
 export PATH="$HOME/bin:$PATH"
 ```
 
-## Uploading to GitHub
-1. **Initialize a Git repository:**
-   ```bash
-   git init
-   ```
-
-2. **Add the script and README:**
-   ```bash
-   git add extract_classes_ids.sh README.md
-   ```
-
-3. **Commit the changes:**
-   ```bash
-   git commit -m "Initial commit: Add script and README"
-   ```
-
-4. **Create a repository on GitHub:**
-   Go to [GitHub](https://github.com/) and create a new repository.
-
-5. **Add the remote URL:**
-   ```bash
-   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-   ```
-
-6. **Push the changes:**
-   ```bash
-   git push -u origin main
-   ```
 
 ## License
 Feel free to modify and use this script as you see fit!
